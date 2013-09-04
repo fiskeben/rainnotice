@@ -1,0 +1,10 @@
+var settings = {
+	'weatherreport_url' : 'http://www.yr.no/sted/Norge/Hordaland/Bergen/Bergen/varsel.xml',
+	'rain_limit' : 5,
+	'pushover' : {
+		'user' : 'your user key',
+		'device' : 'your device name'
+	}
+};
+
+exports.rainNoticeSettings = settings;

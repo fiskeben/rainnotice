@@ -1,0 +1,3 @@
+var token = 'your API token';
+
+exports.pushoverAPIToken = token;
